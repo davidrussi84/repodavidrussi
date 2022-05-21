@@ -165,9 +165,11 @@ color: white;
 }
 
 .p1 {
-    background-color: #323232;
+    background-image:url(../images/AdobeStock_274217406.jpg);
+    background-position: center;
+    background-size:cover;
     display: flex;
-    align-items: center;
+    align-items:flex-end;
     justify-content: center;
     grid-area: p1;
     height: auto;
@@ -176,9 +178,11 @@ color: white;
 }
 
 .p2 {
-    background-color: #323232;
+    background-image:url(../images/AdobeStock_432926859.jpg);
+    background-position: center;
+    background-size:cover;
     display: flex;
-    align-items: center;
+    align-items:flex-end;
     justify-content: center;
     grid-area: p2;
     height: 200px;
@@ -187,9 +191,11 @@ color: white;
 }
 
 .p3 {
-    background-color: #323232;
+    background-image:url(../images/AdobeStock_272687804.jpg);
+    background-position: center;
+    background-size:cover;
     display: flex;
-    align-items: center;
+    align-items:flex-end;
     justify-content: center;
     grid-area: p3;
     height: 200px;
@@ -198,9 +204,11 @@ color: white;
 }
 
 .p4 {
-    background-color: #323232;
+    background-image:url(../images/AdobeStock_274217406.jpg);
+    background-position: center;
+    background-size:cover;
     display: flex;
-    align-items: center;
+    align-items:flex-end;
     justify-content: center;
     grid-area: p4;
     height: 200px;
@@ -209,9 +217,11 @@ color: white;
 }
 
 .p5 {
-    background-color: #323232;
+    background-image:url(../images/AdobeStock_274217406.jpg);
+    background-position: center;
+    background-size:cover;
     display: flex;
-    align-items: center;
+    align-items:flex-end;
     justify-content: center;
     grid-area: p5;
     height: 200px;
@@ -220,9 +230,11 @@ color: white;
 }
 
 .p6 {
-    background-color: #323232;
+    background-image:url(../images/AdobeStock_274217406.jpg);
+    background-position: center;
+    background-size:cover;
     display: flex;
-    align-items: center;
+    align-items:flex-end;
     justify-content: center;
     grid-area: p6;
     height: 200px;
@@ -231,9 +243,11 @@ color: white;
 }
 
 .p7 {
-    background-color: #323232;
+    background-image:url(../images/AdobeStock_274217406.jpg);
+    background-position: center;
+    background-size:cover;
     display: flex;
-    align-items: center;
+    align-items:flex-end;
     justify-content: center;
     grid-area: p7;
     height: 200px;
@@ -242,9 +256,11 @@ color: white;
 }
 
 .p8 {
-    background-color: #323232;
+    background-image:url(../images/AdobeStock_274217406.jpg);
+    background-position: center;
+    background-size:cover;
     display: flex;
-    align-items: center;
+    align-items:flex-end;
     justify-content: center;
     grid-area: p8;
     height: 200px;
@@ -253,9 +269,11 @@ color: white;
 }
 
 .p9 {
-    background-color: #323232;
+    background-image:url(../images/AdobeStock_274217406.jpg);
+    background-position: center;
+    background-size:cover;
     display: flex;
-    align-items: center;
+    align-items:flex-end;
     justify-content: center;
     grid-area: p9;
     height: 200px;
@@ -264,15 +282,38 @@ color: white;
 }
 
 .p10 {
-    background-color: #323232;
+    background-image:url(../images/AdobeStock_274217406.jpg);
+    background-position: center;
+    background-size:cover;
     display: flex;
-    align-items: center;
+    align-items:flex-end;
     justify-content: center;
     grid-area: p10;
     height: 200px;
     color: #f04337;
 
 }
+
+.contenedorBlanco{
+    background-color:#f04337;
+    color:white;
+    font-size: small;
+    width: 140px;
+    height: 35px;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    margin-bottom: 5px;
+}
+
+/* Contacto ______________________________________________________________________ */
+
+.contenedorC {
+    width: 100%;
+    max-width: 1440%;
+}
+
+
 
 /* ____________________________________________________________________________________________________ */
 
