@@ -16,3 +16,181 @@
 .bg_gray2{
     background-color: #32363a;
 }
+
+
+.centrar{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.contenedorP {
+    width: 100%;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: "p1 p1 p2 p3"
+        "p1 p1 p4 p4"
+        "p5 p5 p6 p6"
+        "p7 p8 p9 p10";
+}
+
+.p1 {
+    background-image:url(../images/LH.jpg);
+    background-position: center;
+    background-size:cover;
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+    grid-area: p1;
+    height: auto;
+    color: white;
+
+}
+
+.p2 {
+    background-image:url(../images/Bee.jpg);
+    background-position: center;
+    background-size:cover;
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+    grid-area: p2;
+    height: 200px;
+    color: #f04337;
+
+}
+
+.p3 {
+    background-image:url(../images/ADV.jpg);
+    background-position: center;
+    background-size:cover;
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+    grid-area: p3;
+    height: 200px;
+    color: #f04337;
+
+}
+
+.p4 {
+    background-image:url(../images/JAM2.jpg);
+    background-position: center;
+    background-size:cover;
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+    grid-area: p4;
+    height: 200px;
+    color: #f04337;
+
+}
+
+.p5 {
+    background-image:url(../images/Jameson.jpg);
+    background-position: center;
+    background-size:cover;
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+    grid-area: p5;
+    height: 200px;
+    color: #f04337;
+
+}
+
+.p6 {
+    background-image:url(../images/Aberlour.jpg);
+    background-position: center;
+    background-size:cover;
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+    grid-area: p6;
+    height: 200px;
+    color: #f04337;
+
+}
+
+.p7 {
+    background-image:url(../images/slava.jpg);
+    background-position: center;
+    background-size:cover;
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+    grid-area: p7;
+    height: 200px;
+    color: #f04337;
+
+}
+
+.p8 {
+    background-image:url(../images/campi.jpg);
+    background-position: center;
+    background-size:cover;
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+    grid-area: p8;
+    height: 200px;
+    color: #f04337;
+
+}
+
+.p9 {
+    background-image:url(../images/editorial.jpg);
+    background-position: center;
+    background-size:cover;
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+    grid-area: p9;
+    height: 200px;
+    color: #f04337;
+
+}
+
+.p10 {
+    background-image:url(../images/hc.jpg);
+    background-position: center;
+    background-size:cover;
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+    grid-area: p10;
+    height: 200px;
+    color: #f04337;
+
+}
+
+.contenedorBlanco{
+    background-color:#f04337;
+    color:white;
+    font-size: small;
+    width: 140px;
+    height: 35px;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    margin-bottom: 5px;
+}
+
+
+@media screen and (max-width: 767px) {
+
+    .contenedorP {
+        grid-template-areas:"p1 p1 p1 p1"
+            "p2 p2 p3 p3"
+            "p4 p4 p4 p4"
+            "p5 p5 p5 p5"
+            "p6 p6 p6 p6"
+            "p7 p7 p8 p8"
+            "p9 p9 p10 p10";
+}
+
+.p1 {
+height: 300px;
+}
+}
