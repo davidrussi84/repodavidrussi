@@ -6,19 +6,101 @@
     font-size: small;
 }
 
+.a2 {
+    transition: background-color .5s;
+  }
+
+  .a2:hover {
+    font-size: medium;
+  }
+
 .imagenIndex {
-        background-image: url(../images/AdobeStock_118213211.jpg);
-        background-position: center top;
-        background-size:cover;
-        height: 550px;
+    background-image: url(../images/AdobeStock_118213211.jpg);
+    background-position: center top;
+    background-size: cover;
+    height: 550px;
 }
 
-.bg_gray2{
+.imagenContacto {
+    background-image: url(../images/contacto.jpg);
+    background-position: center top;
+    background-size: cover;
+    height: 250px;
+}
+
+.imagenBlog {
+    background-image: url(../images/blog.jpg);
+    background-position: center top;
+    background-size: cover;
+    height: 250px;
+}
+
+.imagenPorta {
+    background-image: url(../images/porta.jpg);
+    background-position: center top;
+    background-size: cover;
+    height: 250px;
+}
+
+.imagenClientes {
+    background-image: url(../images/clientes.jpg);
+    background-position: center top;
+    background-size: cover;
+    height: 250px;
+}
+
+
+
+.imgBlog1 {
+    background-image: url(https://www.creativeboom.com/uploads/articles/4f/4fe10a929e1b74d388b105675efb4a27704434f7_1620.jpg);
+    background-position: center top;
+    background-size: cover;
+    height: 220px;
+}
+
+.imgBlog2 {
+    background-image: url(https://www.creativeboom.com/uploads/articles/8c/8c605df3d07c6feca00247cffb5fc983e5859882_1620.png);
+    background-position: center top;
+    background-size: cover;
+    height: 220px;
+}
+
+.imgBlog3 {
+    background-image: url(https://www.creativeboom.com/uploads/articles/28/284d17b56add08e6863c00caa2422c813ad3e451_1620.jpg);
+    background-position: center top;
+    background-size: cover;
+    height: 220px;
+}
+
+.imgBlog4 {
+    background-image: url(https://www.creativeboom.com/uploads/articles/73/73cd98e8fd9bb62d276b1b1dc731eea356566926_1620.jpg);
+    background-position: center top;
+    background-size: cover;
+    height: 220px;
+}
+
+.imgBlog5 {
+    background-image: url(https://www.creativeboom.com/uploads/articles/f2/f2a15145f9af38d738558abb6216cb9db3ab66a8_1620.jpg);
+    background-position: center top;
+    background-size: cover;
+    height: 220px;
+}
+
+.imgBlog6 {
+    background-image: url(https://www.creativeboom.com/uploads/articles/c2/c2d1dc0a09c4952ae92ca55a99515118053bb844_1620.jpg);
+    background-position: center top;
+    background-size: cover;
+    height: 220px;
+}
+
+
+
+.bg_gray2 {
     background-color: #32363a;
 }
 
 
-.centrar{
+.centrar {
     display: flex;
     justify-content: center;
     align-content: center;
@@ -36,11 +118,11 @@
 }
 
 .p1 {
-    background-image:url(../images/LH.jpg);
+    background-image: url(../images/LH.jpg);
     background-position: center;
-    background-size:cover;
+    background-size: cover;
     display: flex;
-    align-items:flex-end;
+    align-items: flex-end;
     justify-content: center;
     grid-area: p1;
     height: auto;
@@ -49,11 +131,11 @@
 }
 
 .p2 {
-    background-image:url(../images/Bee.jpg);
+    background-image: url(../images/Bee.jpg);
     background-position: center;
-    background-size:cover;
+    background-size: cover;
     display: flex;
-    align-items:flex-end;
+    align-items: flex-end;
     justify-content: center;
     grid-area: p2;
     height: 200px;
@@ -62,11 +144,11 @@
 }
 
 .p3 {
-    background-image:url(../images/ADV.jpg);
+    background-image: url(../images/ADV.jpg);
     background-position: center;
-    background-size:cover;
+    background-size: cover;
     display: flex;
-    align-items:flex-end;
+    align-items: flex-end;
     justify-content: center;
     grid-area: p3;
     height: 200px;
@@ -75,11 +157,11 @@
 }
 
 .p4 {
-    background-image:url(../images/JAM2.jpg);
+    background-image: url(../images/JAM2.jpg);
     background-position: center;
-    background-size:cover;
+    background-size: cover;
     display: flex;
-    align-items:flex-end;
+    align-items: flex-end;
     justify-content: center;
     grid-area: p4;
     height: 200px;
@@ -88,11 +170,11 @@
 }
 
 .p5 {
-    background-image:url(../images/Jameson.jpg);
+    background-image: url(../images/Jameson.jpg);
     background-position: center;
-    background-size:cover;
+    background-size: cover;
     display: flex;
-    align-items:flex-end;
+    align-items: flex-end;
     justify-content: center;
     grid-area: p5;
     height: 200px;
@@ -101,11 +183,11 @@
 }
 
 .p6 {
-    background-image:url(../images/Aberlour.jpg);
+    background-image: url(../images/Aberlour.jpg);
     background-position: center;
-    background-size:cover;
+    background-size: cover;
     display: flex;
-    align-items:flex-end;
+    align-items: flex-end;
     justify-content: center;
     grid-area: p6;
     height: 200px;
@@ -114,11 +196,11 @@
 }
 
 .p7 {
-    background-image:url(../images/slava.jpg);
+    background-image: url(../images/slava.jpg);
     background-position: center;
-    background-size:cover;
+    background-size: cover;
     display: flex;
-    align-items:flex-end;
+    align-items: flex-end;
     justify-content: center;
     grid-area: p7;
     height: 200px;
@@ -127,11 +209,11 @@
 }
 
 .p8 {
-    background-image:url(../images/campi.jpg);
+    background-image: url(../images/campi.jpg);
     background-position: center;
-    background-size:cover;
+    background-size: cover;
     display: flex;
-    align-items:flex-end;
+    align-items: flex-end;
     justify-content: center;
     grid-area: p8;
     height: 200px;
@@ -140,11 +222,11 @@
 }
 
 .p9 {
-    background-image:url(../images/editorial.jpg);
+    background-image: url(../images/editorial.jpg);
     background-position: center;
-    background-size:cover;
+    background-size: cover;
     display: flex;
-    align-items:flex-end;
+    align-items: flex-end;
     justify-content: center;
     grid-area: p9;
     height: 200px;
@@ -153,11 +235,11 @@
 }
 
 .p10 {
-    background-image:url(../images/hc.jpg);
+    background-image: url(../images/hc.jpg);
     background-position: center;
-    background-size:cover;
+    background-size: cover;
     display: flex;
-    align-items:flex-end;
+    align-items: flex-end;
     justify-content: center;
     grid-area: p10;
     height: 200px;
@@ -165,15 +247,15 @@
 
 }
 
-.contenedorBlanco{
-    background-color:#f04337;
-    color:white;
+.contenedorBlanco {
+    background-color: #f04337;
+    color: white;
     font-size: small;
     width: 140px;
     height: 35px;
     display: flex;
-    align-items:center;
-    justify-content:center;
+    align-items: center;
+    justify-content: center;
     margin-bottom: 5px;
 }
 
@@ -181,16 +263,16 @@
 @media screen and (max-width: 767px) {
 
     .contenedorP {
-        grid-template-areas:"p1 p1 p1 p1"
+        grid-template-areas: "p1 p1 p1 p1"
             "p2 p2 p3 p3"
             "p4 p4 p4 p4"
             "p5 p5 p5 p5"
             "p6 p6 p6 p6"
             "p7 p7 p8 p8"
             "p9 p9 p10 p10";
-}
+    }
 
-.p1 {
-height: 300px;
-}
+    .p1 {
+        height: 300px;
+    }
 }
