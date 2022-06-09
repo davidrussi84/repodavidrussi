@@ -1,4 +1,5 @@
 @import "variables";
+@import "mixins";
 
 
 .fontRoboto {
@@ -24,84 +25,75 @@
     height: 550px;
 }
 
-.imagenContacto {
+.imagenHeader {
+    background-position: center top;
+    background-size: cover;
+    height: 250px;
+}
+
+.imagenHeader--imagenContacto {
+    @extend .imagenHeader;
     background-image: url(../images/contacto.jpg);
-    background-position: center top;
-    background-size: cover;
-    height: 250px;
 }
 
-.imagenBlog {
+.imagenHeader--imagenBlog {
+    @extend .imagenHeader;
     background-image: url(../images/blog.jpg);
-    background-position: center top;
-    background-size: cover;
-    height: 250px;
+
 }
 
-.imagenPorta {
+.imagenHeader--imagenPorta {
+    @extend .imagenHeader;
     background-image: url(../images/porta.jpg);
-    background-position: center top;
-    background-size: cover;
-    height: 250px;
+
 }
 
-.imagenClientes {
+.imagenHeader--imagenClientes {
+    @extend .imagenHeader;
     background-image: url(../images/clientes.jpg);
-    background-position: center top;
-    background-size: cover;
-    height: 250px;
-}
 
+}
 
 
 .imgBlog1 {
+    @include imblog;
     background-image: url(https://www.creativeboom.com/uploads/articles/4f/4fe10a929e1b74d388b105675efb4a27704434f7_1620.jpg);
-    background-position: center top;
-    background-size: cover;
-    height: 220px;
+
 }
 
 .imgBlog2 {
+    @include imblog;
     background-image: url(https://www.creativeboom.com/uploads/articles/8c/8c605df3d07c6feca00247cffb5fc983e5859882_1620.png);
-    background-position: center top;
-    background-size: cover;
-    height: 220px;
+
 }
 
 .imgBlog3 {
+    @include imblog;
     background-image: url(https://www.creativeboom.com/uploads/articles/28/284d17b56add08e6863c00caa2422c813ad3e451_1620.jpg);
-    background-position: center top;
-    background-size: cover;
-    height: 220px;
+
 }
 
 .imgBlog4 {
+    @include imblog;
     background-image: url(https://www.creativeboom.com/uploads/articles/73/73cd98e8fd9bb62d276b1b1dc731eea356566926_1620.jpg);
-    background-position: center top;
-    background-size: cover;
-    height: 220px;
+
 }
 
 .imgBlog5 {
+    @include imblog;
     background-image: url(https://www.creativeboom.com/uploads/articles/f2/f2a15145f9af38d738558abb6216cb9db3ab66a8_1620.jpg);
-    background-position: center top;
-    background-size: cover;
-    height: 220px;
+
 }
 
 .imgBlog6 {
+    @include imblog;
     background-image: url(https://www.creativeboom.com/uploads/articles/c2/c2d1dc0a09c4952ae92ca55a99515118053bb844_1620.jpg);
-    background-position: center top;
-    background-size: cover;
-    height: 220px;
+
 }
-
-
 
 .bg_gray2 {
-    background-color: #32363a;
+    background-color: $colorS;
 }
-
 
 .centrar {
     display: flex;
@@ -118,141 +110,74 @@
         "p1 p1 p4 p4"
         "p5 p5 p6 p6"
         "p7 p8 p9 p10";
+
+    div {
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        height: 200px;
+        color: $colorP;
+        border-radius: 10px;
+    }
+
+    .p1 {
+        background-image: url(../images/LH.jpg);
+        grid-area: p1;
+        height: auto;
+    }
+
+    .p2 {
+        background-image: url(../images/Bee.jpg);
+        grid-area: p2;
+    }
+
+    .p3 {
+        background-image: url(../images/ADV.jpg);
+        grid-area: p3;
+    }
+
+    .p4 {
+        background-image: url(../images/JAM2.jpg);
+        grid-area: p4;
+    }
+
+    .p5 {
+        background-image: url(../images/Jameson.jpg);
+        grid-area: p5;
+    }
+
+    .p6 {
+        background-image: url(../images/Aberlour.jpg);
+        grid-area: p6;
+    }
+
+    .p7 {
+        background-image: url(../images/slava.jpg);
+        grid-area: p7;
+    }
+
+    .p8 {
+        background-image: url(../images/campi.jpg);
+        grid-area: p8;
+    }
+
+    .p9 {
+        background-image: url(../images/editorial.jpg);
+        grid-area: p9;
+    }
+
+    .p10 {
+        background-image: url(../images/hc.jpg);
+        grid-area: p10;
+    }
 }
 
-.p1 {
-    background-image: url(../images/LH.jpg);
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    grid-area: p1;
-    height: auto;
-    color: white;
-
-}
-
-.p2 {
-    background-image: url(../images/Bee.jpg);
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    grid-area: p2;
-    height: 200px;
-    color: #f04337;
-
-}
-
-.p3 {
-    background-image: url(../images/ADV.jpg);
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    grid-area: p3;
-    height: 200px;
-    color: #f04337;
-
-}
-
-.p4 {
-    background-image: url(../images/JAM2.jpg);
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    grid-area: p4;
-    height: 200px;
-    color: #f04337;
-
-}
-
-.p5 {
-    background-image: url(../images/Jameson.jpg);
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    grid-area: p5;
-    height: 200px;
-    color: #f04337;
-
-}
-
-.p6 {
-    background-image: url(../images/Aberlour.jpg);
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    grid-area: p6;
-    height: 200px;
-    color: #f04337;
-
-}
-
-.p7 {
-    background-image: url(../images/slava.jpg);
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    grid-area: p7;
-    height: 200px;
-    color: #f04337;
-
-}
-
-.p8 {
-    background-image: url(../images/campi.jpg);
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    grid-area: p8;
-    height: 200px;
-    color: #f04337;
-
-}
-
-.p9 {
-    background-image: url(../images/editorial.jpg);
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    grid-area: p9;
-    height: 200px;
-    color: #f04337;
-
-}
-
-.p10 {
-    background-image: url(../images/hc.jpg);
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    grid-area: p10;
-    height: 200px;
-    color: #f04337;
-
-}
 
 .contenedorBlanco {
-    background-color: #f04337;
-    color: white;
+    background-color: $colorP;
+    color: $colorT;
     font-size: small;
     width: 140px;
     height: 35px;
