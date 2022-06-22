@@ -98,13 +98,13 @@
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    height: 280px;
+    height: 250px;
     color: #f04337;
     border-radius: 10px; }
   .contenedorP .p1 {
     background-image: url(../images/LH.jpg);
     grid-area: p1;
-    height: auto; }
+    height: 505px; }
   .contenedorP .p2 {
     background-image: url(../images/Bee.jpg);
     grid-area: p2; }
@@ -151,4 +151,4 @@
   .contenedorP {
     grid-template-areas: "p1 p1 p1 p1" "p2 p2 p3 p3" "p4 p4 p4 p4" "p5 p5 p5 p5" "p6 p6 p6 p6" "p7 p7 p8 p8" "p9 p9 p10 p10"; }
   .p1 {
-    height: 300px; } }
+    height: 250px; } }
